@@ -1,0 +1,8 @@
+<div class="title">
+    <h1>TO-DO LIST</h1>
+</div>
+
+<div class="taskDetails">
+    <input type="text" name="taskName" placeholder="Enter task here" [(ngModel)]="taskName">&nbsp; &nbsp;
+    <button type="button" [ngClass]="!taskName?'':'btn'" [disabled]="!taskName" (click)="submitTask()">Submit</button>
+</div>
