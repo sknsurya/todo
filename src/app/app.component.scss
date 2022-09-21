@@ -1,17 +1,15 @@
 .header {
-  background-color: #f44336;
-  padding: 30px 40px;
-  color: white;
-  text-align: center;
-}
-
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
 .header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.input1 {
-  max-width: 60%;
-min-height: 20px;
-}
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .ng-container{
+    margin-top: 120px;
+    width: 100% ;
+  }
