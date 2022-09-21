@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
 import { ViewComponent } from './view/view.component';
+import { UserinputComponent } from './userinput/userinput.component';
+import { UsertasksComponent } from './usertasks/usertasks.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
+    UserinputComponent,
+    UsertasksComponent,
     ViewComponent
   ],
   imports: [
