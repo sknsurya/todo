@@ -1,0 +1,20 @@
+    <div class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+        <input class="todoName" type="text" [(ngModel)]="todoName">
+        <span (click)="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <div class="body">
+        <!-- <input type="checkbox"> -->
+    </div>
+
+<div>
+    <ul *ngFor="let todo of todoList;" >
+        <input type="checkbox">
+       <li (click)="isActive=!isActive" [ngClass]="isActive?'isActive':'inActive'">{{todo}}</li>
+    </ul>
+</div>
+<!-- <p (click)="isActive=!isActive" [ngClass]="isActive?'isActive':'inActive'">This text contains ng class directive</p>
+
+<P *ngIf="isActive; else elseBlock">Content to render when condition is true.</P>
+<ng-template #elseBlock>This is the else block</ng-template> -->
