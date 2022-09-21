@@ -1,0 +1,35 @@
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 2);
+}
+.input1{
+    max-width: 60%;
+    min-width: 20px;
+}
+.taskDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    label {
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    input {
+        display: flex;
+        width: 250px;
+    }
+
+    
+}
+.btn {
+    display: flex;
+    background: navy;
+    color: white;
+    font-weight: 900;
+    border: 2px solid skyblue;
+    cursor: pointer;
+}
