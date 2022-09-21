@@ -2,8 +2,8 @@
     <app-userinput class="input1" (addNewTask)="addTask($event)"></app-userinput>
   </div>
   <div class="todoName ">
-  <h3>MY TASKS</h3>
-    <ng-container *ngFor="let task of taskList">
+  <h3 style="display: flex;justify-content: center;margin-top: 20px;margin-bottom: 10px; ">MY TASKS</h3>
+    <ng-container *ngFor="let task of taskList">&nbsp;
       <app-usertasks [tasks]="task"></app-usertasks>
     </ng-container>
   </div>
